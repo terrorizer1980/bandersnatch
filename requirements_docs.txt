@@ -3,7 +3,7 @@ docutils==0.16  # pyup: ignore
 pyparsing==2.4.7
 python-dateutil==2.8.1
 packaging==20.9
-requests==2.25.1
+requests==2.31.0
 six==1.16.0
 sphinx==3.5.4
 MyST-Parser==0.14.0
@@ -18,3 +18,5 @@ git+https://github.com/python/python-docs-theme.git#egg=python-docs-theme
 # Also, the missing swift dependencies will cause the doc build to fail since
 # autodoc will raise a warning due to the import failure.
 -r requirements_swift.txt
+markdown-it-py>=2.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
