@@ -1,3 +1,11 @@
 keystoneauth1==4.3.1
 openstackclient==4.0.0
 python-swiftclient==3.12.0
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+networkx>=2.6 # not directly required, pinned by Snyk to avoid a vulnerability
+oslo.utils>=4.8.1 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+ujson>=5.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+yaql>=3.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
